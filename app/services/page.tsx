@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { ServicesHero } from "@/components/sections/ServicesHero";
-import { Services } from "@/components/sections/Services";
+import { ServicesDetailed } from "@/components/sections/ServicesDetailed";
 import { CtaBand } from "@/components/sections/CtaBand";
 
 // SEO Services — keyword: services marketing digital Belgique
@@ -31,7 +31,7 @@ export default function ServicesPage() {
   return (
     <>
       <ServicesHero />
-      <Services />
+      <ServicesDetailed />
       <CtaBand />
     </>
   );
